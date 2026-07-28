@@ -1,0 +1,35 @@
+=============================================
+ DATA-DRIVEN AIRBNB MARKET ANALYSIS
+ EXECUTIVE KPI SNAPSHOT — LONDON
+=============================================
+
+Total Listings Analyzed      : 92,638
+Median Price / Night         : £189.59
+Superhost Share              : 19.0%
+Average Review Score         : 4.69 / 5
+Average Occupancy Rate (est) : 58.2%
+Most Expensive Borough       : Westminster      
+
+---------------------------------------------
+ MODEL PERFORMANCE
+---------------------------------------------
+Linear Regression   -> MAE: £60.19 | R²: 0.547
+Random Forest       -> MAE: £47.33 | R²: 0.656
+
+---------------------------------------------
+ HYPOTHESIS TEST
+ (Superhost vs Regular Host Price)
+---------------------------------------------
+T-statistic : 4.543
+P-value     : 0.00001
+Result      : Statistically significant difference in price between Superhosts and regular hosts (p < 0.05)
+
+---------------------------------------------
+ DISTRIBUTION METRICS
+---------------------------------------------
+Price Skewness : 274.18
+Price Kurtosis : 80116.61
+
+Generated from : Data_Driven_Airbnb_Market_Analysis.ipynb
+Last Updated   : July 2026
+=============================================
