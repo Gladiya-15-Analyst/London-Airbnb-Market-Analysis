@@ -272,6 +272,17 @@ London-Airbnb-Data-Analysis/
 - 📈 Real-time Market Monitoring Dashboard
 
 ---
+## 📂 Dataset
+
+Due to GitHub file size limitations, the original dataset is not included in this repository.
+
+You can download the raw dataset from:
+
+🔗 https://drive.google.com/file/d/1pe8dNDFHEHg_c88MbpHfj1g0W5ytOhLV/view?usp=drive_link
+
+Location:
+- London, United Kingdom
+- Listings Dataset (CSV)
 
 # 👨‍💻 Author
 
