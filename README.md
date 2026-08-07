@@ -223,6 +223,25 @@ Bubble Chart	<img width="1498" height="655" alt="Screenshot 2026-08-05 203058" s
 
 Funnel Chart	<img width="1680" height="678" alt="Screenshot 2026-08-05 203201" src="https://github.com/user-attachments/assets/8d868ba4-bc46-4208-8a7e-14310f2aec4d" />
 
+##  Dataset
+
+The raw dataset used in this project (`Airbnb.Raw.dataset.csv`, ~211 MB) is **not stored directly in this repository**, since it exceeds GitHub's 25 MB file upload limit.
+
+Instead, the dataset is hosted as a **GitHub Release asset** and can be accessed here:
+
+🔗 [Download Dataset (v1.0)](https://github.com/Gladiya-15-Analyst/London-Airbnb-Market-Analysis/releases/download/v1.0/Airbnb.Raw.dataset.csv)
+
+### Loading the dataset in Python
+
+```python
+import pandas as pd
+
+url = "https://github.com/Gladiya-15-Analyst/London-Airbnb-Market-Analysis/releases/download/v1.0/Airbnb.Raw.dataset.csv"
+df = pd.read_csv(https://github.com/Gladiya-15-Analyst/London-Airbnb-Market-Analysis/releases/download/v1.0/Airbnb.Raw.dataset.csv)
+```
+
+This loads the dataset directly from the release link — no manual download needed.
+
 
 # 👨‍💻 Author
 
