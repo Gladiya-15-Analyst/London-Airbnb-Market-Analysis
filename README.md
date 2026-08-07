@@ -8,285 +8,225 @@ An end-to-end Data Analytics and Machine Learning project analyzing Airbnb listi
 
 **Analyzing 92,000+ Airbnb listings to uncover pricing trends, market patterns, and business insights across London.**
 
-# 🏡 London Airbnb Data Analysis Using Python
+Project Overview
 
-<img width="1536" height="1024" alt="Project-Work flow" src="https://github.com/user-attachments/assets/8c2c38cd-35ef-4f96-9d72-1c6c21027854" />
+The Airbnb marketplace has transformed the short-term accommodation industry by connecting millions of travelers with property owners worldwide. Understanding how listing characteristics, pricing, host attributes, guest reviews, and geographical location influence the marketplace is essential for both business decision-making and customer experience.
 
-## 📌 Executive Summary
+This project presents a comprehensive Exploratory Data Analysis (EDA) of Airbnb listings in London. Using Python and advanced visualization libraries, the analysis investigates pricing behavior, market composition, geographical trends, host characteristics, and customer engagement while following a complete professional data analysis workflow.
 
-The **London Airbnb Data Analysis** project explores over **92,000 Airbnb listings** across London to uncover pricing patterns, host performance, geographical trends, and customer preferences. Using Python, the project follows a complete analytics workflow—from raw data preprocessing to interactive business visualizations—transforming complex data into actionable insights for stakeholders in the hospitality and short-term rental industry.
+The project demonstrates the practical application of data cleaning, feature engineering, statistical analysis, and business intelligence visualization techniques to transform raw data into meaningful insights.
 
-The analysis emphasizes business storytelling through advanced visualizations, statistical analysis, and data-driven recommendations, making it suitable for portfolio presentation and professional analytics showcases.
+Project Objectives
 
----
+The primary objectives of this project are to:
 
-# 🎯 Business Objectives
+Perform comprehensive data cleaning and preprocessing to improve data quality and analytical reliability.
+Explore the statistical characteristics of Airbnb listings using descriptive and inferential analysis.
+Examine pricing distributions and identify significant outliers within the London Airbnb market.
+Analyze relationships between listing price, guest ratings, reviews, room types, and property types.
+Investigate the geographical distribution of listings across London using interactive mapping.
+Identify dominant accommodation categories and market composition.
+Generate business-oriented insights that can support pricing strategies, investment decisions, and customer understanding.
+Demonstrate an end-to-end professional data analysis workflow suitable for portfolio and industry applications.
+ Dataset Information
+Attribute	Details
+Dataset	Airbnb London Listings
+Records	92,638 Listings
+Features	70+ Variables
+Data Type	Structured Tabular Data
+Tools Used	Python, Pandas, NumPy, Matplotlib, Seaborn, Plotly
+Environment	Google Colab
+🛠 Project Workflow
+Raw Dataset
+      │
+      ▼
+Initial Exploration (EDA)
+      │
+      ▼
+Data Cleaning & Transformation
+      │
+      ▼
+Feature Engineering
+      │
+      ▼
+Statistical Analysis
+      │
+      ▼
+Business Visualizations
+      │
+      ▼
+Insights & Recommendations
+ Data Cleaning & Transformation
 
-- Analyze the London Airbnb market using Python.
-- Perform comprehensive data cleaning and preprocessing.
-- Engineer business-focused analytical features.
-- Conduct descriptive statistical analysis.
-- Perform Univariate, Bivariate, and Multivariate Analysis.
-- Identify pricing trends across boroughs and room types.
-- Examine host performance and customer review behavior.
-- Visualize geographic distribution of listings.
-- Generate actionable business recommendations.
+A comprehensive data cleaning pipeline was implemented to improve data quality and ensure reliable analysis.
 
----
+Cleaning Steps
+Removed duplicate observations.
+Identified and handled missing values.
+Eliminated columns with nearly 100% missing data.
+Converted data types into appropriate formats.
+Standardized categorical values.
+Cleaned monetary variables by removing currency symbols.
+Parsed date columns into datetime format.
+Removed unnecessary URL and metadata columns.
+Verified data consistency across numerical and categorical variables.
+Prepared the dataset for feature engineering.
+⚙️ Feature Engineering
 
-# 📂 Dataset Information
+Several new analytical features were created to enhance the dataset and support deeper business analysis.
 
-| Attribute | Details |
-|------------|---------|
-| Dataset | London Airbnb Listings |
-| Source | Inside Airbnb |
-| Domain | Hospitality & Tourism |
-| Industry | Short-Term Rental |
-| Location | London, United Kingdom |
-| Records | 92,638 Listings |
-| Original Features | 75+ |
-| Final Features | After Feature Engineering |
+Engineered variables include:
 
----
+Amenity Count
+Bathrooms Count
+Price per Guest
+Price Category
+Availability Category
+Host Experience Metrics
 
-# 🛠️ Tools & Technologies
+These engineered variables enabled richer visualizations and more meaningful insights than the original dataset alone.
 
-<p>
-
-🐍 Python
-
-🐼 Pandas
-
-🔢 NumPy
-
-📊 Matplotlib
-
-📈 Seaborn
-
-⚡ Plotly
-
-🌍 Plotly Mapbox
-
-📓 Google Colab
-
-</p>
-
----
-
-# ⚙️ Project Workflow
-
-```text
-London Airbnb Dataset
-          │
-          ▼
-    Data Loading
-          │
-          ▼
- Initial Data Inspection
-          │
-          ▼
- Comprehensive Data Cleaning
-          │
-          ▼
- Data Transformation
-          │
-          ▼
- Feature Engineering
-          │
-          ▼
  Statistical Analysis
-          │
-          ▼
- Exploratory Data Analysis
-          │
-          ▼
- Business Visualization
-          │
-          ▼
- Insights & Interpretation
-          │
-          ▼
- Strategic Recommendations
-```
 
----
+The statistical analysis examined the distribution, variability, and relationships among numerical variables.
 
-# 📊 Statistical Analysis
+Analyses Performed
+Descriptive Statistics
+Distribution Analysis
+Price Distribution
+Boxplot Analysis
+Variance Analysis
+Standard Deviation Analysis
+Deviation from Mean
+Correlation Matrix
 
-## 📈 Price Distribution
+These analyses provided a strong statistical foundation before moving into business-focused visualization.
 
-<img width="1056" height="656" alt="image" src="https://github.com/user-attachments/assets/4f1b5a2c-d450-433c-8fd6-c5ee144764e0" />
+ Business Visualizations
 
+The project incorporates advanced interactive visualizations designed to answer practical business questions.
 
----
+Visualization	Business Question
+KPI Dashboard	What is the overall state of the Airbnb market?
+Treemap	Which property types dominate the market?
+Interactive Plotly Map	Where are listings concentrated geographically?
+Donut Chart	What is the market share of each room type?
+Horizontal Bar Chart     Which London boroughs have the highest average Airbnb listing prices?
+Bubble Chart	How are price, ratings, and reviews related?
+Funnel Chart	How do listings progress across price categories?
+ Key Insights
+ 1. Entire Home accommodations dominate the London Airbnb market.
 
-## 📦 Price Boxplot
+The Treemap and Donut Chart revealed that Entire Home/Apartments account for the largest proportion of Airbnb listings, highlighting strong traveler preference for private accommodations over shared spaces.
 
+ Airbnb prices are highly right-skewed.
 
-<img width="870" height="514" alt="image" src="https://github.com/user-attachments/assets/2058f1fa-7837-4daa-aae1-bc6ab2922a49" />
+Statistical analysis showed that most listings fall within lower and moderate price ranges, while a relatively small number of premium properties significantly increase the overall average price.
 
----
+This indicates that the median price provides a more representative measure of central tendency than the mean.
 
-## 📉 Variance Analysis
+ 3. Listing prices exhibit substantial variability.
 
+Variance, Standard Deviation, and Boxplot analyses identified considerable dispersion in prices along with numerous legitimate luxury-property outliers.
 
-<img width="1152" height="656" alt="image" src="https://github.com/user-attachments/assets/922bb445-487b-48a7-97e0-ede80b6997e5" />
+These outliers reflect actual market behavior rather than data quality issues.
 
----
+4. High guest ratings are consistent across price ranges.
 
-## 📊 Standard Deviation Analysis
+The Bubble Chart demonstrated that most listings maintain ratings above 4.5, regardless of price.
 
+This suggests that exceptional guest experiences are not limited to luxury accommodations.
 
-<img width="1152" height="656" alt="image" src="https://github.com/user-attachments/assets/89d2fa27-7265-46af-aee9-d813dbab308c" />
+ 5. Moderately priced listings receive the greatest guest engagement.
 
+Listings within moderate pricing tiers generally accumulated larger numbers of reviews than premium listings, indicating stronger booking frequency and broader customer appeal.
 
----
+ 6. Airbnb listings are geographically concentrated.
 
-## 🔥 Correlation Matrix
+The Interactive Plotly Map revealed that listings are densely clustered around central London, with premium-priced accommodations concentrated near major tourist and commercial districts.
 
+ 7. Property type significantly influences pricing.
 
-<img width="1243" height="990" alt="image" src="https://github.com/user-attachments/assets/8798b540-96af-40c2-980e-26456916f0f5" />
+Different property types command distinct pricing levels, with larger and more private accommodations generally associated with higher average prices.
 
+ 8. Price categories reveal market segmentation.
 
----
+The Funnel Chart illustrated the distribution of listings across pricing tiers, highlighting that the majority of listings belong to affordable and mid-range segments, while premium listings represent a comparatively smaller share of the market.
 
-# 📈 Business Visualizations
+ 9. Numerical variables exhibit mostly weak-to-moderate correlations.
 
-## 📌 Executive KPI Dashboard
-<img width="1653" height="712" alt="Screenshot 2026-08-05 202748" src="https://github.com/user-attachments/assets/caa397fe-ac62-431c-ab39-a17d320f9175" />
+The Correlation Matrix indicated that Airbnb pricing is influenced by multiple interacting factors rather than a single dominant variable.
 
+This suggests that pricing decisions depend on a combination of property characteristics, location, host attributes, and guest engagement.
 
-## 🏠 Property Type Treemap
+ 10. Feature engineering enhanced analytical depth.
 
-<img width="1704" height="627" alt="Screenshot 2026-08-05 202841" src="https://github.com/user-attachments/assets/ffc58e36-a1fa-4186-8826-ef3009b4c365" />
+Creating variables such as Amenity Count, Price Category, and Price per Guest enabled more sophisticated analysis and richer business insights than the raw dataset alone.
 
+Conclusion
 
----
+This project successfully demonstrates a complete end-to-end exploratory data analysis of Airbnb listings in London by integrating rigorous data preprocessing, feature engineering, statistical analysis, and advanced interactive visualization techniques.
 
-## 🗺️ Interactive London Airbnb Map
+The analysis revealed that London's Airbnb market is largely driven by entire-home accommodations, with prices displaying significant variability and a positively skewed distribution. Premium listings are concentrated in central areas of London, while moderately priced properties generate higher levels of guest engagement. Furthermore, consistently high review ratings across all price ranges indicate that service quality is maintained regardless of pricing tier.
 
-<img width="1711" height="726" alt="Screenshot 2026-08-05 202958" src="https://github.com/user-attachments/assets/60df9b51-86af-455f-b22d-4cf34ba75e1d" />
+By combining statistical techniques with interactive business visualizations—including KPI dashboards, Treemaps, Interactive Maps, Donut Charts, Bubble Charts, and Funnel Charts—the project provides a comprehensive understanding of London's short-term rental marketplace.
 
+Overall, this analysis showcases the ability to transform raw data into actionable business insights using Python and modern data visualization techniques, reflecting the complete analytical workflow expected in real-world data analytics projects.
 
----
+Tools & Technologies
+Python
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Plotly
+Google Colab
+Jupyter Notebook
+ Repository Structure
+ 
+Airbnb-London-EDA/
 
-## 🍩 Room Type Distribution
-
-<img width="1618" height="598" alt="Screenshot 2026-08-05 203025" src="https://github.com/user-attachments/assets/5d488a53-71a2-450f-abe1-777b7d82d4a4" />
-
-
----
-
-## 💬 Price vs Rating Bubble Chart
-
-<img width="1498" height="655" alt="Screenshot 2026-08-05 203058" src="https://github.com/user-attachments/assets/5db397f1-8db1-4887-b2a9-79a5f6e7c29e" />
-
-
----
-
-## 📊 Borough-wise Average Price
-
-<img width="1672" height="703" alt="Screenshot 2026-08-05 203131" src="https://github.com/user-attachments/assets/dc99ee2f-219c-4f12-b2ed-55cd965cc5d9" />
-
-
----
-
-## 🥧 Superhost Distribution
-
-<img width="1680" height="678" alt="Screenshot 2026-08-05 203201" src="https://github.com/user-attachments/assets/3fc4a10d-6371-4510-a08e-333d3856009f" />
-
-
----
-
-# 💡 Key Findings
-
-- Entire Home/Apartments dominate the London Airbnb market.
-- Airbnb prices are highly right-skewed due to premium luxury listings.
-- Central London boroughs consistently command higher prices.
-- Most listings maintain excellent guest ratings (above 4.5).
-- Moderately priced listings receive the greatest customer engagement.
-- Superhosts represent a smaller proportion of hosts while maintaining higher service quality.
-- Geographic location strongly influences listing price.
-- Property type and room type significantly affect pricing.
-
----
-
-# 🚀 Business Recommendations
-
-✅ Optimize pricing strategies based on borough demand.
-
-✅ Encourage hosts to achieve Superhost status.
-
-✅ Focus marketing campaigns on premium locations.
-
-✅ Improve listing amenities to increase competitiveness.
-
-✅ Monitor customer reviews to enhance guest satisfaction.
-
-✅ Regularly evaluate market pricing trends.
-
----
-
-# 📂 Repository Structure
-
-```text
-London-Airbnb-Data-Analysis/
 │
-├── Dataset/
-│   └── London_Airbnb.csv
-│
-├── Notebook/
-│   └── London_Airbnb_Analysis.ipynb
-│
-├── Documentation/
-│   └── London_Airbnb_Report.pdf
-│
-├── Images/
-│   ├── KPI_Dashboard.png
-│   ├── Treemap.png
-│   ├── London_Map.png
-│   ├── RoomType_Donut.png
-│   ├── Bubble_Chart.png
-│   ├── Borough_Price.png
-│   ├── Superhost_Pie.png
-│   ├── Price_Distribution.png
-│   ├── Price_Boxplot.png
-│   ├── Variance.png
-│   ├── Standard_Deviation.png
-│   ├── Correlation_Heatmap.png
-│
-├── README.md
-├── requirements.txt
-└── LICENSE
-```
+├── Project Overview
+├── Objectives
+├── Dataset Information
+├── Project Workflow
+├── Data Cleaning
+├── Feature Engineering
+├── Statistical Analysis (brief description only)
+├── Business Dashboard (Images)
+│      ├── KPI Dashboard
+│      ├── Treemap
+│      ├── Plotly Map
+│      ├── Donut Chart
+│      ├── Bubble Chart
+│      ├── Borough Price Chart
+│      └── Funnel Chart
+├── Key Insights
+├── Conclusion
+├── Tools Used
+└── Repository Structure
 
----
+Dashboard	Preview
 
-# 📈 Future Enhancements
+KPI Dashboard	<img width="1653" height="712" alt="Screenshot 2026-08-05 202748" src="https://github.com/user-attachments/assets/9f5d3f93-a585-405c-a369-6f0dc551382f" />
 
-- 📊 Interactive Power BI Dashboard
-- 🌐 Streamlit Web Application
-- 🤖 Airbnb Price Prediction Model
-- 😊 Guest Review Sentiment Analysis
-- 🏠 Airbnb Recommendation System
-- 📈 Real-time Market Monitoring Dashboard
+Treemap	<img width="1704" height="627" alt="Screenshot 2026-08-05 202841" src="https://github.com/user-attachments/assets/62d676e2-4ce1-42b3-92c7-d61eebf157fb" />
 
----
-## 📂 Dataset
+Interactive Map	<img width="1711" height="726" alt="Screenshot 2026-08-05 202958" src="https://github.com/user-attachments/assets/26449dfc-0ad3-4aed-89d3-e582c4df2a33" />
 
-Due to GitHub file size limitations, the original dataset is not included in this repository.
+Donut Chart	<img width="1618" height="598" alt="Screenshot 2026-08-05 203025" src="https://github.com/user-attachments/assets/f2cb7ba8-126f-467b-951b-ef52eed70cbc" />
 
-You can download the raw dataset from:
+Horizontal Bar Chart (Top 15 Boroughs by Average Price)        <img width="1672" height="703" alt="Screenshot 2026-08-05 203131" src="https://github.com/user-attachments/assets/e3393b1f-3666-4295-980e-081f14cd92aa" />
 
-🔗 https://drive.google.com/file/d/1pe8dNDFHEHg_c88MbpHfj1g0W5ytOhLV/view?usp=drive_link
+Bubble Chart	<img width="1498" height="655" alt="Screenshot 2026-08-05 203058" src="https://github.com/user-attachments/assets/e1f12ff1-a8ed-4de0-9dda-d6b078a410d6" />
 
-Location:
-- London, United Kingdom
-- Listings Dataset (CSV)
+Funnel Chart	<img width="1680" height="678" alt="Screenshot 2026-08-05 203201" src="https://github.com/user-attachments/assets/8d868ba4-bc46-4208-8a7e-14310f2aec4d" />
+
 
 # 👨‍💻 Author
 
-## Glad
+## Gladiya Francline
 
 **Aspiring Data Analyst**
 
@@ -313,4 +253,3 @@ The dataset is provided by **Inside Airbnb** under their published terms of use.
 
 ---
 
-⭐ If you found this project helpful or interesting, consider giving it a star.
