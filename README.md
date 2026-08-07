@@ -10,7 +10,7 @@ An end-to-end Data Analytics and Machine Learning project analyzing Airbnb listi
 
 **Analyzing 92,000+ Airbnb listings to uncover pricing trends, market patterns, and business insights across London.**
 
-Project Overview
+#Project Overview
 
 The Airbnb marketplace has transformed the short-term accommodation industry by connecting millions of travelers with property owners worldwide. Understanding how listing characteristics, pricing, host attributes, guest reviews, and geographical location influence the marketplace is essential for both business decision-making and customer experience.
 
@@ -18,7 +18,7 @@ This project presents a comprehensive Exploratory Data Analysis (EDA) of Airbnb 
 
 The project demonstrates the practical application of data cleaning, feature engineering, statistical analysis, and business intelligence visualization techniques to transform raw data into meaningful insights.
 
-Project Objectives
+#Project Objectives
 
 The primary objectives of this project are to:
 
