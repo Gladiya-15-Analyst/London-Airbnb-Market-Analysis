@@ -4,6 +4,8 @@ An end-to-end Data Analytics and Machine Learning project analyzing Airbnb listi
 
 *Uncovering pricing patterns, host performance, and demand trends across 92,000+ London Airbnb listings*
 
+<img width="1536" height="1024" alt="Project-Work flow" src="https://github.com/user-attachments/assets/9fa61e3c-65b5-4c94-9e27-32e09ed6536e" />
+
 <div align="center">
 
 **Analyzing 92,000+ Airbnb listings to uncover pricing trends, market patterns, and business insights across London.**
